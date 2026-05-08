@@ -1,0 +1,137 @@
+
+ @keyframes abc{
+    from{transform: rotate(90deg);}
+    to{transform: rotate(450deg);}
+ } 
+
+.clock {
+    background-color: aqua;
+    display: flex;
+    justify-content:space-evenly ;
+   border-radius: 30%;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+ .sec{
+    width: 1px;
+    height: 200px;
+    background-color:rgb(119, 120, 172) ;
+    border: 2px solid rgb(75, 22, 22);
+    position: relative;
+    top: -255px;
+    right: -150px;
+    animation: abc  60s linear infinite none;
+      background:linear-gradient(
+      27deg ,
+      red 30%,
+      white 25%,
+      white 20%
+      
+   );
+   z-index: 1;
+   
+     
+ }
+ 
+
+
+ .min {
+     width: 200px;
+    height: 10px;
+    background-color: rgb(119, 120, 172);
+    border: 1px solid rgb(75, 22, 22);
+    border-radius: 35%;
+     position: relative;
+    top: -366px;
+    right: -49px;
+    animation: abc 3600s linear infinite none;
+      background:linear-gradient(
+      27deg ,
+      red 30%,
+      rgb(207, 119, 201) 25%,
+      rgb(207, 201, 201) 20%
+      
+   );
+
+ }
+ 
+ .hour {
+     width: 200px;
+    height: 200px;
+    background-color: rgb(119, 120, 172);
+    border: 25px solid rgb(116, 82, 82);
+    
+    
+    border-radius: 46%;
+     position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    animation: abc 10ms  linear infinite normal;
+    background:radial-gradient(red,rgb(7, 7, 75),white);
+    border-color: rgba(134, 133, 223, 0.377);
+
+    }
+   
+ .hr {
+    width: 100px;
+    height: 7px;
+    background-color: rgb(0, 0, 2);
+     border: 1px solid rgb(3, 3, 3);
+      border-radius: 30%;
+     position: relative;
+    top: -377px;
+    right: -99px;
+    animation: abc 43200s linear infinite none;
+   background:linear-gradient(
+      27deg ,
+      red 30%,
+      white 25%,
+      white 20%
+      
+   );
+
+   
+ }
+.dih  {
+   width: 18px;
+   height: 18px;
+   background-color: rgb(8, 8, 8);
+   border-radius: 100%;
+   position: relative;
+   bottom: 388px;
+   right: -141px;
+   z-index: 1;
+   
+
+
+
+}
+.tw   {
+   position: relative;
+   top: -560px;
+   right: -130px;
+}
+.six  {
+    position: relative;
+   top: -378px;
+   right: -139px;
+}
+
+
+.nine {
+    position: relative;
+   top: -599px;
+   right: -270px;
+
+
+}
+.thr  {
+
+ position: relative;
+   top: -550px;
+   right: -13px;
+}
